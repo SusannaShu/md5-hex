@@ -1,4 +1,4 @@
-import crypto from 'node:crypto';
+const crypto= require ('node:crypto')
 
 export default function md5Hex(data) {
 	const hash = crypto.createHash('md5');
